@@ -39,6 +39,10 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_TRANSACTION_INTERPRETATION_PROVIDER": "blockscout",
         "NEXT_PUBLIC_ROLLUP_TYPE": "zkEvm",
         "NEXT_PUBLIC_ROLLUP_L1_BASE_URL": l1_explorer,
+        "NEXT_PUBLIC_NETWORK_CURRENCY_NAME": "Tixon",
+        "NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL": "TCP",
+        "NEXT_PUBLIC_NETWORK_LOGO": "https://tcp314.com/logo.png",
+        "NEXT_PUBLIC_NETWORK_ICON": "https://tcp314.com/logo.png",
     }
     if swap_url:
         env_vars["NEXT_PUBLIC_SWAP_BUTTON_URL"] = swap_url
