@@ -20,9 +20,11 @@ def run(plan, cfg, stack_info):
         "PORT": str(service_port),
         "NEXT_PUBLIC_NETWORK_NAME": title,
         "NEXT_PUBLIC_NETWORK_ID": str(chain_id),
-        "NEXT_PUBLIC_API_HOST": api_host,
-        "NEXT_PUBLIC_API_PORT": api_port,
-        "NEXT_PUBLIC_API_PROTOCOL": "http",
+        #"NEXT_PUBLIC_API_HOST": api_host,
+        #"NEXT_PUBLIC_API_PORT": api_port,
+        "NEXT_PUBLIC_API_HOST": "dev-bsapi.tcpofficial.com",
+        "NEXT_PUBLIC_API_PORT": "443",
+        "NEXT_PUBLIC_API_PROTOCOL": "https",
         "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "ws",
         "NEXT_PUBLIC_STATS_API_HOST": "http://{}:{}".format(
             stack_info["stats_host"], stack_info["stats_port"]
@@ -33,7 +35,6 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_APP_PROTOCOL": "http",
         "NEXT_PUBLIC_APP_HOST": service_ip or "127.0.0.1",
         "NEXT_PUBLIC_APP_PORT": str(service_port),
-        "NEXT_PUBLIC_USE_NEXT_JS_PROXY": "true",
         "NEXT_PUBLIC_AD_BANNER_PROVIDER": "none",
         "NEXT_PUBLIC_AD_TEXT_PROVIDER": "none",
         "NEXT_PUBLIC_TRANSACTION_INTERPRETATION_PROVIDER": "blockscout",
