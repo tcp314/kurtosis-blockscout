@@ -6,7 +6,7 @@ IMAGE_POSTGRES = "postgres:16.2"
 IMAGE_BACKEND = "blockscout/blockscout-zkevm:6.5.0"
 IMAGE_STATS = "ghcr.io/blockscout/stats:main"
 IMAGE_VISUALIZE = "ghcr.io/blockscout/visualizer:main"
-IMAGE_FRONTEND = "docker.io/library/blockscout-frontend:local"
+IMAGE_FRONTEND = "blockscout-frontend:local"
 
 
 def get_config(args, db_host=None, get_db_configs=False):
