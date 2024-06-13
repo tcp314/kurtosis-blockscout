@@ -43,7 +43,7 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL": "TCP",
         "NEXT_PUBLIC_NETWORK_LOGO": "https://tcp314.com/logo.png",
         "NEXT_PUBLIC_NETWORK_ICON": "https://tcp314.com/logo.png",
-        "NEXT_PUBLIC_IS_TESTNET": true,
+        "NEXT_PUBLIC_IS_TESTNET": "true",
     }
     if swap_url:
         env_vars["NEXT_PUBLIC_SWAP_BUTTON_URL"] = swap_url
