@@ -1,7 +1,7 @@
 # https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#transaction-interpretation
 # https://docs.blockscout.com/for-developers/information-and-settings/env-variables
 DB_PORT = 5432
-TITLE = "TixonCash explorer"
+TITLE = "RevaLink"
 IMAGE_POSTGRES = "postgres:16.2"
 IMAGE_BACKEND = "blockscout/blockscout-zkevm:6.5.0"
 IMAGE_STATS = "ghcr.io/blockscout/stats:main"
@@ -52,7 +52,7 @@ def get_config(args, db_host=None, get_db_configs=False):
         },
         "VISUALIZE": {
             "IMAGE": IMAGE_VISUALIZE,
-            "NAME": "bs-visualize" + deployment_suffix,
+            "NAME": "bs-vis" + deployment_suffix,
             "PORT": 8050,
         },
         "FRONTEND": {
