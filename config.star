@@ -52,7 +52,7 @@ def get_config(args, db_host=None, get_db_configs=False):
         },
         "VISUALIZE": {
             "IMAGE": IMAGE_VISUALIZE,
-            "NAME": "bs-visualize" + deployment_suffix,
+            "NAME": "bs-visua" + deployment_suffix,
             "PORT": 8050,
         },
         "FRONTEND": {
