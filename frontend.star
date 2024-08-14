@@ -22,7 +22,7 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_NETWORK_ID": str(chain_id),
         #"NEXT_PUBLIC_API_HOST": api_host,
         #"NEXT_PUBLIC_API_PORT": api_port,
-        "NEXT_PUBLIC_API_HOST": "dev-bsapi.tcpofficial.com",
+        "NEXT_PUBLIC_API_HOST": "bsapi.revalink.network",
         "NEXT_PUBLIC_API_PORT": "443",
         "NEXT_PUBLIC_API_PROTOCOL": "https",
         "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "wss",
@@ -40,10 +40,10 @@ def run(plan, cfg, stack_info):
         "NEXT_PUBLIC_TRANSACTION_INTERPRETATION_PROVIDER": "blockscout",
         "NEXT_PUBLIC_ROLLUP_TYPE": "zkEvm",
         "NEXT_PUBLIC_ROLLUP_L1_BASE_URL": l1_explorer,
-        "NEXT_PUBLIC_NETWORK_CURRENCY_NAME": "Tixon",
-        "NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL": "TCP",
-        "NEXT_PUBLIC_NETWORK_LOGO": "https://tcp314.com/logo.png",
-        "NEXT_PUBLIC_NETWORK_ICON": "https://tcp314.com/logo.png",
+        "NEXT_PUBLIC_NETWORK_CURRENCY_NAME": "RevaLink",
+        "NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL": "RWP",
+        "NEXT_PUBLIC_NETWORK_LOGO": "https://bridge.revalink.network/logo.png",
+        "NEXT_PUBLIC_NETWORK_ICON": "https://bridge.revalink.network/logo.png",
         "NEXT_PUBLIC_IS_TESTNET": "true",
     }
     if swap_url:
